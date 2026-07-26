@@ -1,0 +1,17 @@
+### Get all buses
+GET http://localhost:8080/buses
+
+### Add a bus
+POST http://localhost:8080/buses
+Content-Type: application/json
+
+{
+  "busNumber": "TS09AB1234",
+  "busName": "Express Travels",
+  "source": "Hyderabad",
+  "destination": "Warangal",
+  "totalSeats": 40
+}
+
+### Get all bookings
+GET http://localhost:8080/bookingsc
