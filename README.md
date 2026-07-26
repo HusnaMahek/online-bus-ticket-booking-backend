@@ -41,14 +41,6 @@ I built this project using Java and Spring Boot to practise creating REST APIs, 
 
 `POST /bookings` - Create a new booking.
 
-Example:
-
-```json
-{
-  "passengerName": "Ali",
-  "busId": 1,
-  "seatNumber": 5
-}
 GET /bookings - View all bookings.
 
 DELETE /bookings/{id} - Cancel a booking.
